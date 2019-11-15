@@ -9,27 +9,74 @@ body{
   border: solid orange;
   border-width: 0px 0px 0px 10px;
   padding: 20px;
+  font-family: arial; 
   
 }
 #titulo{
-  text-align: center;
-  letter-spacing: 10px;
-  font-size: 300%;
+  
+  margin-left: 28%;
+  letter-spacing: 45px;
+  font-size: 250%;
   color: orange;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
-  
 }
 
-#imagen1{
+#imagen1, #imagen3, #imagen5{
   float: left;
   border: 2px solid orange;
   padding: 4px;
+  
 }
 
-#imagen2{
+#imagen2, #imagen4{
   float: right;
   border: 2px solid orange;
   padding: 4px;
 }
 
+
+#titulo2, #titulo3, #titulo4{
+  font-family: verdana;
+  color: orange; 
+  letter-spacing: 5px;
+  margin: 0% 0% 1% 14%;
+  font-size: 15px;
+  
+ 
+}
+div{
+  width: 100%;
+  height: 220px;  
+}
+footer{
+  float: right;
+  font-size: 80%;
+  font-style: italic;
+}
+
+#barra1, #barra2, #barra3, #barra4{
+  color: orange;
+  width: 82%;
+   border: 4px solid orange;
+  border-radius: 2px;
+  margin-bottom: 30px;
+  
+}
+
+#parrafo1{
+  text-align: justify;
+  margin-left: 5px;
+}
+
+#subrayado1{
+  color: orange;
+  border: 3px solid orange;
+  border-radius: 2px;
+  width: 24%;
+  margin: -1% 0% 1% 1%;
+}
+
+#letra1, #letra2, #letra3{
+  font-size: 20px;
+}
